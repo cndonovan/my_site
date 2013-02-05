@@ -1,4 +1,8 @@
-.header-navigation-link {
+.brand-link {
+	color: #333;
+	text-decoration: none;
+}
+.header-link {
 	margin-right: 20px;
 }
 
