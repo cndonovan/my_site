@@ -9,13 +9,15 @@ body {
 .header-link {
 	display: block;
 	float: left;
-	width: 150px;
-	//margin-right: 20px;
+	width: 100px;
+}
+#sub-header-links {
+	clear: both;
 }
 .sub-header-link {
 	display: block;
 	float: left;
-	width: 150px;
+	width: 100px;
 	margin-top: 10px;
 }
 .footer-divider {
