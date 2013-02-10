@@ -1,0 +1,20 @@
+body {
+	width: 960px;
+	margin: 0 auto;
+}
+.brand-link {
+	color: #333;
+	text-decoration: none;
+}
+.header-link {
+	width: 150px;
+	//margin-right: 20px;
+}
+.sub-header-link {
+	width: 150px;
+	margin-top: 10px;
+}
+.footer-divider {
+	position: absolute;
+	bottom: 10px;
+}
