@@ -20,6 +20,9 @@ body {
 	width: 100px;
 	margin-top: 10px;
 }
+#sub-header-links + h2 {
+	clear: both;
+}
 .footer-divider {
 	position: absolute;
 	bottom: 10px;
