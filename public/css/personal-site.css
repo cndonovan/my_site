@@ -7,10 +7,14 @@ body {
 	text-decoration: none;
 }
 .header-link {
+	display: block;
+	float: left;
 	width: 150px;
 	//margin-right: 20px;
 }
 .sub-header-link {
+	display: block;
+	float: left;
 	width: 150px;
 	margin-top: 10px;
 }
