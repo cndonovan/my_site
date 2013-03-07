@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" /> 
+	<title>Chrissy Donovan</title>
+	<link rel="stylesheet" type="text/css" href="http://chrissydonovan.herokuapp.com/css/personal-site.css">
+</head>
+<body>
+	<h1><a class="brand-link" href="http://chrissydonovan.herokuapp.com">A man, a plan, a canal:  Chrissy</a></h1>
+	
+	<div id="header-links">
+		<a class="header-link" href="http://chrissydonovan.herokuapp.com/notes/index.html">Notes</a>
+		<a class="header-link" href="http://chrissydonovan.herokuapp.com/projects/index.html">Projects</a>
+		<a class="header-link" href="http://chrissydonovan.herokuapp.com/ssn/index.html">SSN</a>
+		<a class="header-link" href="http://chrissydonovan.herokuapp.com/about/index.html">About</a>
+	</div>
+	<div id="sub-header-links">
+		<a class="sub-header-link" href="http://chrissydonovan.herokuapp.com/notes/java.html">Java</a>
+		<a class="sub-header-link" href="http://chrissydonovan.herokuapp.com/notes/interview_questions.html">Interview Questions</a>
+	</div>
+	<h2>Intervew Questions</h2>
+	<h3>Winter 2013</h3>
+	<dl>
+		<dt>Given an array A of n numbers, produce an array B such that B[i] is the product of A[0], A[1], ... A[i-1], A[i+1], ... A[n]. In other words, B[i] is the product of all entries in A except for A[i].</dt>
+		<dd>What happens if A includes a single zero?</dd>
+		<dd>Multiple zeroes?</dd>
+		<dd>Negative numbers?</dd>
+		<dd>What if A is empty?</dd>
+		<dd>What if the number in A are "large"? What kinds of errors will happen in different languages?</dd>
+		<dd>What if you cannot use the division operator?</dd>
+		<dt>Suppose I have the following code:
+		<code>
+		public abstract class Animal {
+			public void speak() {
+				System.out.println("Growl.");
+			}
+		}
+		public interface canSpeak {
+			public void speak();
+		}
+		public class Dog extends Animal implements canSpeak {
+			public void speak() {
+				System.out.println("Bark.");
+			}
+		}
+		public class Human extends Animal implements canSpeak {
+			public void speak() {
+				System.out.println("Hello.");
+			}
+		}
+		</code></dt>
+		<dd>What is an interface?  Is this code legal if I remove the speak method from Dog and Human?
+		What is the difference between compile-time type and run-time type?/<dd>
+		<dt> Given a completely connected graph of n vertices (an edge exists between every two vertices), how many edges are there?</dt>
+		<dd> How do we find a path from vertex A to vertex B?  Write the code.  How do you handle cycles? How do you paralleize the process? </dd>
+		<dt> Write the class structure of a package management system (similar to Linux package management) that needs to be able to support install and remove. </dt>
+	</dl>
+	<div class="footer-divider">Bottom of the page.</div>
+</body>
+</html>
